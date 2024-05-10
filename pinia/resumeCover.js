@@ -85,7 +85,7 @@ export default {
       </div>
   </div>
   <div class="col-md-7 ">
-      <img src="/img/hero-lg.png"
+      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/hero-lg.png?alt=media&token=9f49926b-f44a-4ac8-8547-cb9cc4379510"
           class="img-fluid title-img">
   </div>
 </div>

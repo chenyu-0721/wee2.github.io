@@ -236,7 +236,7 @@ export default {
           <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
               <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal4">
                   <div class="">
-                      <img src="/img/美美美早餐.png" class="card-img-top secondImg">
+                      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%BE%8E%E7%BE%8E%E7%BE%8E%E6%97%A9%E9%A4%90.png?alt=media&token=f5d47a52-b12d-43e0-b2e4-37ad0f1e054a" class="card-img-top secondImg">
                       <div class="card-body">
                           <span class="SecondTitle">美美美早餐店 POS 機 UI Design</span>
                           <br>
@@ -251,7 +251,7 @@ export default {
               </div>
               <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal6">
                   <div class="">
-                      <img src="/img/巧克巧克.png" class="card-img-top secondImg">
+                      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E5%B7%A7%E5%85%8B%E5%B7%A7%E5%85%8B.png?alt=media&token=43d4255d-5747-45d7-aadb-1f3b8eee8f96" class="card-img-top secondImg">
                       <div class="card-body">
                           <span class="SecondTitle">巧克巧克形象官網設計</span>
                           <br>
@@ -266,7 +266,7 @@ export default {
               </div>
               <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal5">
                   <div class="">
-                      <img src="/img/電影院.png" class="card-img-top secondImg">
+                      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E9%9B%BB%E5%BD%B1%E9%99%A2.png?alt=media&token=08fd0c2e-6788-44f8-a1ff-4dff8da4a847" class="card-img-top secondImg">
                       <div class="card-body">
                           <span class="SecondTitle">電影院訂票系統</span>
                           <br>
@@ -281,7 +281,7 @@ export default {
               </div>
               <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal6">
                   <div class="">
-                      <img src="/img/橘子.png" class="card-img-top secondImg">
+                      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%A9%98%E5%AD%90.png?alt=media&token=fc05a352-1bcb-41fd-b965-adce2df4688d" class="card-img-top secondImg">
                       <div class="card-body">
                           <span class="SecondTitle">2023 餉茶坊飲料旗艦店活動官網設計</span>
                           <br>

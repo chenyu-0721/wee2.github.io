@@ -89,7 +89,7 @@ export default {
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal1">
                     <div class="">
-                        <img src="./img/星際.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B.png?alt=media&token=bc711aeb-0065-48bc-9694-fdd93dc6ea35" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">星際旅行訂票平台</span>
                             <br>
@@ -104,7 +104,7 @@ export default {
                 </div>
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal2">
                     <div class="">
-                        <img src="./img/理財.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1.png?alt=media&token=8b0f8096-92ec-47bf-b79a-00932ed23feb" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">理財App</span><br>
                             <span class="information">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</span>
@@ -118,7 +118,7 @@ export default {
                 </div>
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal3">
                     <div class="">
-                        <img src="./img/診所.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E8%A8%BA%E6%89%80.png?alt=media&token=47181666-dca5-4d5b-b76a-9d89c8ccac26" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">醫美診所官網</span><br>
                             <span class="information">永保青春的秘密，從粹究開始</span>
@@ -132,7 +132,7 @@ export default {
                 </div>
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal4">
                     <div class="">
-                        <img src="/img/美美美早餐.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%BE%8E%E7%BE%8E%E7%BE%8E%E6%97%A9%E9%A4%90.png?alt=media&token=f5d47a52-b12d-43e0-b2e4-37ad0f1e054a" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">美美美早餐店 POS 機 UI Design</span>
                             <br>
@@ -147,7 +147,7 @@ export default {
                 </div>
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal5">
                     <div class="">
-                        <img src="/img/電影院.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E9%9B%BB%E5%BD%B1%E9%99%A2.png?alt=media&token=08fd0c2e-6788-44f8-a1ff-4dff8da4a847" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">電影院訂票系統</span>
                             <br>
@@ -162,7 +162,7 @@ export default {
                 </div>
                 <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal6">
                     <div class="">
-                        <img src="/img/巧克巧克.png" class="card-img-top secondImg">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E5%B7%A7%E5%85%8B%E5%B7%A7%E5%85%8B.png?alt=media&token=43d4255d-5747-45d7-aadb-1f3b8eee8f96" class="card-img-top secondImg">
                         <div class="card-body">
                             <span class="SecondTitle">巧克巧克形象官網設計</span>
                             <br>
