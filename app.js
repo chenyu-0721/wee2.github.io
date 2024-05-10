@@ -1,12 +1,14 @@
 import resumeCover from "./pinia/resumeCover.js";
 import workComponent from "./pinia/work/workComponent.js";
 import serveComponent from "./pinia/serve/serveComponent.js";
+import blogComponent from "./pinia/blog/blogComponent.js";
 const { createApp } = Vue;
 
 const routes = [
   { path: "/", component: resumeCover },
   { path: "/work", component: workComponent },
   { path: "/serve", component: serveComponent },
+  { path: "/blog", component: blogComponent },
 ];
 
 const router = VueRouter.createRouter({
@@ -15,7 +17,7 @@ const router = VueRouter.createRouter({
 });
 
 const app = createApp({
-  components: { resumeCover, workComponent, serveComponent },
+  components: { resumeCover, workComponent, serveComponent, blogComponent },
 });
 
 app.use(router);
