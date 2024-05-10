@@ -45,7 +45,7 @@ export default {
                   </a>
               </li>
               <li class="nav-item">
-                  <a href="#/blog" class="nav-link anchor" aria-current="page">
+                  <a href="#/blog" class="nav-link " aria-current="page">
 
                       <span class="navbar_span nav-font ">部落格</span>
                       <span class="nav-box1"></span>
