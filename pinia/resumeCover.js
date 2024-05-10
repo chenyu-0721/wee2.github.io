@@ -97,30 +97,54 @@ export default {
 
 
 
-<div class="project-Introduction-perfume-img">
-  <div class="position-relative">
-      <div class="bg-light bg-opacity-50 box">
-          <h2 class="box-title">星際旅行訂票平台</h2>
-          <p class="box-content">悠遊宇宙的夢想，從這裡開始實現</p>
-          <div class="box-bigtag border-bottom ps-2">
-              <span class="box-tag">網頁設計</span>
-              <span class="box-tag">響應式設計</span>
-              <span class="box-tag">Bootstrap</span>
-          </div>
-          <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href=""
-                  role="button">
-                  完整內容
-                  <i class="bi bi-arrow-right bi-right"></i>
-              </a>
-          </div>
+
+
+<div class="project-Introduction-perfume-img box-big-hidden">
+  <div class="position-relative d-flex flex-column align-items-center">
+    <img src="your-image.jpg" alt="Your Image" class="img-fluid" style="max-width: 100%; height: auto;">
+    <div class="bg-light bg-opacity-50 box mt-3">
+      <h2 class="box-title">星際旅行訂票平台</h2>
+      <p class="box-content">悠遊宇宙的夢想，從這裡開始實現</p>
+      <div class="box-bigtag border-bottom ps-2">
+        <span class="box-tag">網頁設計</span>
+        <span class="box-tag">響應式設計</span>
+        <span class="box-tag">Bootstrap</span>
       </div>
+      <div class="d-flex justify-content-center box-button-top">
+        <a class="btn btn-dark box-button" href="" role="button">
+          完整內容
+          <i class="bi bi-arrow-right bi-right"></i>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 
 
+<div class=" marketing box-hidden">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2 text-center">
+                    <h2 class="box-title">星際旅行訂票平台</h2>
+                    <p class="box-content">悠遊宇宙的夢想，從這裡開始實現</p>
+                    <div class="box-bigtag  ps-2">
+                        <span class="hashtag">網頁設計</span>
+                        <span class="hashtag">響應式設計</span>
+                        <span class="hashtag">Bootstrap</span>
+                    </div>
+                    <div class="d-flex justify-content-center box-button-top">
+                        <a class="btn btn-dark box-button" href="" role="button">
+                            完整內容
+                            <i class="bi bi-arrow-right bi-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B%E6%97%85%E8%A1%8C.png?alt=media&token=948984b9-6ad5-4eae-b040-bf487b9ed3b4" class="img-fluid " style="height:350px">
+                </div>
+            </div>
+        </div>
 
-<div class="project-Introduction-drink-img">
+<div class="project-Introduction-drink-img box-big-hidden">
   <div class="position-relative">
       <div class=" bg-light bg-opacity-50  box-drink">
           <h2 class="box-title">理財APP</h2>
@@ -141,7 +165,32 @@ export default {
   </div>
 </div>
 
-<div class="project-Introduction-game-img">
+<div class=" marketing box-hidden">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2 text-center">
+                <h2 class="box-title">理財APP</h2>
+                <p class="box-content">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
+                <div class="box-bigtag border-bottom ps-2">
+                    <span class="box-tag">APP設計</span>
+                    <span class="box-tag">iOS</span>
+                    <span class="box-tag">React</span>
+                </div>
+                <div class="d-flex justify-content-center box-button-top">
+                    <a class="btn btn-dark box-button" href=" "
+                        role="button">
+                        完整內容
+                        <i class="bi bi-arrow-right bi-right"></i>
+                    </a>
+                </div>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1app.png?alt=media&token=738031c8-1df3-4369-8a4d-fba3912abd86" class="img-fluid " style="height:350px">
+                </div>
+            </div>
+        </div>
+
+
+<div class="project-Introduction-game-img box-big-hidden">
   <div class="position-relative">
       <div class="position-absolute  bg-light bg-opacity-50 box">
           <h2 class="box-title">醫美診所官網</h2>
@@ -152,7 +201,7 @@ export default {
               <span class="box-tag">ＷordPress</span>
           </div>
           <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/monster.github.io"
+              <a class="btn btn-dark box-button" href=""
                   role="button">
                   完整內容
                   <i class="bi bi-arrow-right bi-right"></i>
@@ -161,6 +210,33 @@ export default {
       </div>
   </div>
 </div>
+
+
+<div class=" marketing box-hidden">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2 text-center">
+                <h2 class="box-title">醫美診所官網</h2>
+                <p class="box-content">永保青春的秘密，從粹究開始</p>
+                <div class="box-bigtag border-bottom ps-2">
+                    <span class="box-tag">網頁設計</span>
+                    <span class="box-tag">響應式設計</span>
+                    <span class="box-tag">ＷordPress</span>
+                </div>
+                <div class="d-flex justify-content-center box-button-top">
+                    <a class="btn btn-dark box-button" href=""
+                        role="button">
+                        完整內容
+                        <i class="bi bi-arrow-right bi-right"></i>
+                    </a>
+                </div>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%B2%B9%E7%A9%B6%E7%BE%8E%E5%AD%B8.png?alt=media&token=f7bd2508-1a8d-4dcf-9199-724053627602" class="img-fluid " style="height:350px">
+                </div>
+            </div>
+        </div>
+
+
 
 <div class="bg-light">
 

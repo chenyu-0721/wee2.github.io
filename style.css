@@ -960,3 +960,28 @@ a {
   font-size: 28px;
   padding-top: 80px;
 }
+
+.box-hidden {
+  display: none;
+}
+
+.box-big-hidden {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .featurette .col-md-7 {
+    order: 2;
+  }
+  .featurette .col-md-5 {
+    order: 1;
+  }
+
+  .box-hidden {
+    display: block;
+  }
+
+  .box-big-hidden {
+    display: none;
+  }
+}
