@@ -111,7 +111,9 @@ export default {
                     Figma 是現在最主流的 UIUX 設計軟體，自從開創了「協作功能」之後，幾乎就是把 Adobe XD 和 Sketch 遠遠甩在後頭！</span>
             </div>
         </div>
+        <a href="#/vr">
         <div class="blog-flex pt-5">
+   
             <div class="col-lg-4.5">
                 <img class="blog-img" style="width: 397px; height: 253px;"
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image4.png?raw=true">
@@ -119,11 +121,12 @@ export default {
             <div class="ms-3 col-md-7 blog-flex2">
                 <span class="blog-content pt-3">2023/09/20<span class="hashtag">數位產品設計</span></span>
 
-                <span class="blog-title">虛擬實境 (VR) 介面設計對使用者沈浸感影響的研究</span>
+                <span class="blog-title text-dark">虛擬實境 (VR) 介面設計對使用者沈浸感影響的研究</span>
                 <span
                     class="blog-content pt-3">在當今數位科技的快速發展下，虛擬實境（VR）技術日益受到關注。VR技術為使用者提供了身臨其境的體驗，並在多個領域中得到應用，如遊戲、教育、醫療等。然而，要實現真正的沈浸感需要考慮多個因素，其中介面設計是至關重要的一環。本研究旨在探討不同介面設計對使用者在虛擬環境中的沈浸感的影響，以期為優化VR技術的使用者體驗提供參考。</span>
             </div>
-        </div>
+        </div> 
+        </a>
         <div class="blog-flex pt-5">
             <div class="col-lg-4.5">
                 <img class="blog-img" style="width: 397px; height: 253px;"
@@ -176,7 +179,7 @@ export default {
 
 <div class="bg-light" id="callme">
     <div class="container " style="padding-bottom:40px">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-nav">
+        <footer class="d-flex flex-wrap justify-c ontent-between align-items-center py-3 my-4 footer-nav">
             <div class="col-md-4 d-flex">
                 <h1 class=""><img
                         src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"><br><span

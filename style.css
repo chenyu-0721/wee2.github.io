@@ -494,6 +494,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  .blog-about {
+    text-align: center;
+  }
   /* *封面 */
   .featurette .row {
     display: flex;
@@ -951,4 +954,9 @@ a {
   flex-direction: column;
   padding-top: 80px;
   font-size: 20px !important;
+}
+
+.blog-about {
+  font-size: 28px;
+  padding-top: 80px;
 }
