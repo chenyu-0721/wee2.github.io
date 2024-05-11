@@ -1559,13 +1559,6 @@ a {
   height: 800px;
 }
 
-.medical-beauty-clinic-textBox-position {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .medical-beauty-clinic-textBox {
   position: absolute;
   width: 526px;
@@ -1915,8 +1908,6 @@ a {
   margin-bottom: 80px;
   margin-top: 80px;
 }
-
-
 
 .anypage-footer-box-Button {
   width: 306px;
