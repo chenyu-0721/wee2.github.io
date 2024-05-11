@@ -366,7 +366,7 @@ export default {
                     </div>
                     <div class="anypage-footer-box2">
                         <a class="text-muted" href="">
-                            <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
+                            <button type="button" class="btn btn-outline-dark anypage-footer-box-Button active"><img
                                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
                             </button>
                         </a>
