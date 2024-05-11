@@ -1232,20 +1232,19 @@ a {
 }
 
 .introduction-of-works-interstellar-travel-textBox-position {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
+  height: 800px;
 }
 
 .introduction-of-works-interstellar-travel-textBox {
   position: absolute;
   width: 526px;
   height: 400px;
-  top: 200px;
-  bottom: 200px;
-  left: 1081px;
-  right: 313px;
+  top: 250px;
+  right: 315px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1323,7 +1322,7 @@ a {
   display: none;
 }
 
-@media (max-width: 1626px) {
+@media (max-width: 768px) {
   /* * 星際旅行---小螢幕圖片專區 */
   .introduction-of-works-interstellar-travel-background {
     display: none;
@@ -1331,6 +1330,18 @@ a {
 
   .introduction-of-works-interstellar-travel-sm {
     display: block;
+  }
+
+  .introduction-of-works-interstellar-travel-textBox {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: initial !important;
+    width: 483px !important;
+    height: 100% !important;
   }
 
   /* * 星際旅行 - 小螢幕文字區 */
@@ -1393,21 +1404,12 @@ a {
   height: 800px;
 }
 
-.financial-management-textBox-position {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .financial-management-textBox {
   position: absolute;
   width: 526px;
   height: 400px;
-  top: 200px;
-  bottom: 200px;
-  left: 312px;
-  right: 1082px;
+  top: 250px;
+  left: 315px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1483,7 +1485,7 @@ a {
   display: none;
 }
 
-@media (max-width: 1626px) {
+@media (max-width: 768px) {
   /* * 首頁 作品介紹 理財APP---圖片區 */
   .financial-management-Img {
     display: none;
@@ -1491,6 +1493,18 @@ a {
 
   .financial-management-Img-sm {
     display: block;
+  }
+
+  .financial-management-textBox {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: initial !important;
+    width: 483px !important;
+    height: 100% !important;
   }
 
   /* * 首頁 作品介紹 理財APP---小螢幕文字區 */
@@ -1556,10 +1570,8 @@ a {
   position: absolute;
   width: 526px;
   height: 400px;
-  top: 200px;
-  bottom: 200px;
-  left: 1081px;
-  right: 313px;
+  top: 250px;
+  right: 315px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1637,7 +1649,7 @@ a {
   display: none;
 }
 
-@media (max-width: 1626px) {
+@media (max-width: 768px) {
   /* * 醫美診所---小螢幕圖片專區 */
   .medical-beauty-clinic-background {
     display: none;
@@ -1645,6 +1657,18 @@ a {
 
   .medical-beauty-clinic-sm {
     display: block;
+  }
+
+  .medical-beauty-clinic-textBox {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: initial !important;
+    width: 483px !important;
+    height: 100% !important;
   }
 
   /* * 醫美診所 - 小螢幕文字區 */

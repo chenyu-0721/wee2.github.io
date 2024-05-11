@@ -100,8 +100,9 @@ export default {
         </div>
 
 
+        
         <div class="introduction-of-works-interstellar-travel-background">
-            <div class="introduction-of-works-interstellar-travel-textBox-position">
+            <div class="position-relative">
                 <div class="introduction-of-works-interstellar-travel-textBox">
                     <div class="introduction-of-works-interstellar-travel-firstBox">
                         <h2 class="introduction-of-works-interstellar-travel-title">星際旅行訂票平台</h2>
@@ -121,7 +122,6 @@ export default {
                 </div>
             </div>
         </div>
-
 
 
 
@@ -151,104 +151,101 @@ export default {
         </div>
 
 
+        
         <div class="financial-management-Img">
-            <div class="financial-management-textBox-position">
-                <div class="financial-management-textBox">
-                    <div class="financial-management-firstBox">
-                        <h2 class="financial-management-title">理財APP</h2>
-                        <p class="financial-management-content">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
-                        <span class="financial-management-hashTag">APP設計</span>
-                        <span class="financial-management-hashTag">iOS</span>
-                        <span class="financial-management-hashTag">React</span>
-                        <hr class="financial-management-hr" />
-                    </div>
-                    <div class="financial-management-button-box">
-                        <a class="btn btn-dark financial-management-button" href=" " role="button">
-                            完整內容
-                            <i class="bi bi-arrow-right financial-management-rightIcon"></i>
-                        </a>
-                    </div>
+        <div class="position-relative">
+            <div class="financial-management-textBox">
+                <div class="financial-management-firstBox">
+                    <h2 class="financial-management-title">理財APP</h2>
+                    <p class="financial-management-content">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
+                    <span class="financial-management-hashTag">APP設計</span>
+                    <span class="financial-management-hashTag">iOS</span>
+                    <span class="financial-management-hashTag">React</span>
+                    <hr class="financial-management-hr" />
+                </div>
+                <div class="financial-management-button-box">
+                    <a class="btn btn-dark financial-management-button" href=" " role="button">
+                        完整內容
+                        <i class="bi bi-arrow-right financial-management-rightIcon"></i>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="marketing financial-management-Img-sm">
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2 text-center">
-                    <div class="financial-management-firstBox">
-                        <h2 class="financial-management-title">理財APP</h2>
-                        <p class="financial-management-content">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
-                        <span class="financial-management-hashTag">APP設計</span>
-                        <span class="financial-management-hashTag">iOS</span>
-                        <span class="financial-management-hashTag">React</span>
-                    </div>
-                    <div class="financial-management-button-box">
-                        <a class="btn btn-dark financial-management-button" href=" " role="button">
-                            完整內容
-                            <i class="bi bi-arrow-right financial-management-rightIcon"></i>
-                        </a>
-                    </div>
+
+
+    <div class="marketing financial-management-Img-sm">
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 text-center">
+                <div class="financial-management-firstBox">
+                    <h2 class="financial-management-title">理財APP</h2>
+                    <p class="financial-management-content">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</p>
+                    <span class="financial-management-hashTag">APP設計</span>
+                    <span class="financial-management-hashTag">iOS</span>
+                    <span class="financial-management-hashTag">React</span>
                 </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1app.png?alt=media&token=738031c8-1df3-4369-8a4d-fba3912abd86"
-                        class="img-fluid " style="height:350px">
+                <div class="financial-management-button-box">
+                    <a class="btn btn-dark financial-management-button" href=" " role="button">
+                        完整內容
+                        <i class="bi bi-arrow-right financial-management-rightIcon"></i>
+                    </a>
                 </div>
             </div>
-        </div>
-
-
-        <div class="medical-beauty-clinic-background">
-            <div class="medical-beauty-clinic-textBox-position">
-                <div class="medical-beauty-clinic-textBox">
-                    <div class="medical-beauty-clinic-firstBox">
-                        <h2 class="medical-beauty-clinic-title">醫美診所官網</h2>
-                        <p class="medical-beauty-clinic-content">永保青春的秘密，從粹究開始</p>
-                        <span class="medical-beauty-clinic-hashTag">網頁設計</span>
-                        <span class="medical-beauty-clinic-hashTag">響應式設計</span>
-                        <span class="medical-beauty-clinic-hashTag">ＷordPress</span>
-                        <hr class="medical-beauty-clinic-hr">
-                    </div>
-
-                    <div class="medical-beauty-clinic-button-box">
-                        <a class="btn btn-dark medical-beauty-clinic-button" href="" role="button">
-                            完整內容
-                            <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1app.png?alt=media&token=738031c8-1df3-4369-8a4d-fba3912abd86"
+                    class="img-fluid " style="height:350px">
             </div>
         </div>
+    </div>
 
-
-
-
-
-        <div class="marketing medical-beauty-clinic-sm">
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2 text-center">
-                    <div class="medical-beauty-clinic-firstBox">
-                        <h2 class="medical-beauty-clinic-title">醫美診所官網</h2>
-                        <p class="medical-beauty-clinic-content">永保青春的秘密，從粹究開始</p>
-                        <span class="medical-beauty-clinic-hashTag">網頁設計</span>
-                        <span class="medical-beauty-clinic-hashTag">響應式設計</span>
-                        <span class="medical-beauty-clinic-hashTag">ＷordPress</span>
-                    </div>
-                    <div class="medical-beauty-clinic-button-box">
-                        <a class="btn btn-dark medical-beauty-clinic-button" href="" role="button">
-                            完整內容
-                            <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%B2%B9%E7%A9%B6%E7%BE%8E%E5%AD%B8.png?alt=media&token=ee5ea9f1-6f78-480c-a72b-519c9eb9b66f"
-                        class="img-fluid " style="height:350px">
-                </div>
+    <div class="medical-beauty-clinic-background">
+    <div class="position-relative">
+        <div class="medical-beauty-clinic-textBox">
+            <div class="medical-beauty-clinic-firstBox">
+                <h2 class="medical-beauty-clinic-title">醫美診所官網</h2>
+                <p class="medical-beauty-clinic-content">永保青春的秘密，從粹究開始</p>
+                <span class="medical-beauty-clinic-hashTag">網頁設計</span>
+                <span class="medical-beauty-clinic-hashTag">響應式設計</span>
+                <span class="medical-beauty-clinic-hashTag">ＷordPress</span>
+            </div>
+            <div class="medical-beauty-clinic-button-box">
+                <a class="btn btn-dark medical-beauty-clinic-button" href="" role="button">
+                    完整內容
+                    <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
+                </a>
             </div>
         </div>
+    </div>
+</div>
 
 
 
+
+
+<div class="marketing medical-beauty-clinic-sm">
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2 text-center">
+            <div class="medical-beauty-clinic-firstBox">
+                <h2 class="medical-beauty-clinic-title">醫美診所官網</h2>
+                <p class="medical-beauty-clinic-content">永保青春的秘密，從粹究開始</p>
+                <span class="medical-beauty-clinic-hashTag">網頁設計</span>
+                <span class="medical-beauty-clinic-hashTag">響應式設計</span>
+                <span class="medical-beauty-clinic-hashTag">ＷordPress</span>
+            </div>
+            <div class="medical-beauty-clinic-button-box">
+                <a class="btn btn-dark medical-beauty-clinic-button" href="" role="button">
+                    完整內容
+                    <i class="bi bi-arrow-right medical-beauty-clinic-rightIcon"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%B2%B9%E7%A9%B6%E7%BE%8E%E5%AD%B8.png?alt=media&token=ee5ea9f1-6f78-480c-a72b-519c9eb9b66f"
+                class="img-fluid " style="height:350px">
+        </div>
+    </div>
+</div>
 
 
         <div class="service-items-img">
