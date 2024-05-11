@@ -82,20 +82,6 @@ nav {
   font-weight: bold;
 }
 
-.project-Introduction-perfume-img {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B%E6%97%85%E8%A1%8C.png?alt=media&token=948984b9-6ad5-4eae-b040-bf487b9ed3b4");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 100%;
-  height: 800px;
-}
-
-.project-Introduction-perfume-img h2,
-.project-Introduction-perfume-img p {
-  color: white; /* 將標題和內文顏色設置為白色 */
-}
-
 .box {
   padding-top: 80px;
   padding-bottom: 56px;
@@ -192,101 +178,6 @@ nav {
   width: 24px;
   height: 24px;
   font-size: 18px;
-}
-
-.nav-box1,
-.nav-box2,
-.nav-box3,
-.nav-box4 {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  display: none;
-}
-
-.nav-link {
-  position: relative;
-  display: inline-block;
-}
-
-.nav-link:hover .nav-box1,
-.nav-link:hover .nav-box2,
-.nav-link:hover .nav-box3,
-.nav-link:hover .nav-box4 {
-  display: block !important; /* 鼠标悬停时显示 */
-}
-
-.nav-box1 {
-  top: 0;
-  left: 0;
-  border-top: 1px solid #919191;
-  border-left: 1px solid #919191;
-}
-.nav-box2 {
-  top: 0;
-  right: 0;
-  border-top: 1px solid #919191;
-  border-right: 1px solid #919191;
-}
-.nav-box3 {
-  right: 0;
-  bottom: 0;
-  border-right: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-}
-.nav-box4 {
-  left: 0;
-  bottom: 0;
-  border-left: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-}
-
-/* * 作品集的nav */
-
-.nav-box1-work,
-.nav-box2-work,
-.nav-box3-work,
-.nav-box4-work {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-}
-
-.nav-link {
-  position: relative;
-  display: inline-block;
-}
-
-.nav-link:hover .nav-box1,
-.nav-link:hover .nav-box2,
-.nav-link:hover .nav-box3,
-.nav-link:hover .nav-box4 {
-  display: block !important; /* 鼠标悬停时显示 */
-}
-
-.nav-box1-work {
-  top: 0;
-  left: 0;
-  border-top: 1px solid #919191;
-  border-left: 1px solid #919191;
-}
-.nav-box2-work {
-  top: 0;
-  right: 0;
-  border-top: 1px solid #919191;
-  border-right: 1px solid #919191;
-}
-.nav-box3-work {
-  right: 0;
-  bottom: 0;
-  border-right: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-}
-.nav-box4-work {
-  left: 0;
-  bottom: 0;
-  border-left: 1px solid #919191;
-  border-bottom: 1px solid #919191;
 }
 
 /* * 服務項目 */
@@ -985,3 +876,1016 @@ a {
     display: none;
   }
 }
+
+/* * 首頁 Nav */
+
+.resume-cover-nav-li,
+.resume-cover-nav-li-padding {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000000;
+}
+
+.resume-cover-nav-li-padding {
+  padding-left: 40px;
+}
+
+.resume-cover-nav-margin {
+  margin-left: 318px;
+}
+
+/* * 共通 nav hover 框框 */
+
+.nav-hover-upperLeft {
+  top: 0px;
+  left: 40px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft {
+  left: 40px;
+  bottom: 0;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-upperLeft,
+.nav-hover-upperRight,
+.nav-hover-lowerRight,
+.nav-hover-lowerLeft {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: none;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link:hover .nav-hover-upperLeft,
+.nav-link:hover .nav-hover-upperRight,
+.nav-link:hover .nav-hover-lowerRight,
+.nav-link:hover .nav-hover-lowerLeft {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+/* * Nav框框終點 */
+
+/* * 點擊Nav該頁面特效  */
+
+.nav-hover-upperLeft-StopPage,
+.nav-hover-upperRight-StopPage,
+.nav-hover-lowerRight-StopPage,
+.nav-hover-lowerLeft-StopPage {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-link:hover .nav-hover-upperLeft-StopPage,
+.nav-link:hover .nav-hover-upperRight-StopPage,
+.nav-link:hover .nav-hover-lowerRight-StopPage,
+.nav-link:hover .nav-hover-lowerLeft-StopPage {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+.nav-hover-upperLeft-StopPage {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight-StopPage {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight-StopPage {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft-StopPage {
+  left: 0;
+  bottom: 0;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+
+/* * Nav Media 768px  */
+
+@media (max-width: 768px) {
+  .resume-cover-nav-li-padding {
+    padding-left: 0px;
+  }
+
+  .resume-cover-nav-margin {
+    margin-left: 0px;
+  }
+}
+
+/* *首頁 自我介紹 篇*/
+
+.resume-about-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  padding-bottom: 24px;
+  color: rgba(59, 59, 59, 1);
+}
+
+.resume-about-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  padding-bottom: 8px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.resume-about-remark {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 8px;
+  color: rgba(193, 193, 193, 1);
+}
+
+.resume-about-icon-padding {
+  padding-top: 60px;
+}
+
+.resume-about-title-icon {
+  font-size: 38px;
+  padding-right: 25px;
+  color: rgba(91, 91, 91, 1);
+}
+
+.resume-about-Img {
+  width: 1154px;
+  height: 792px;
+  object-fit: cover;
+}
+
+/* *首頁 自我介紹 RWD 文字 照片 */
+
+@media (max-width: 768px) {
+  .resume-about-title,
+  .resume-about-content,
+  .resume-about-remark,
+  .resume-about-icon-padding {
+    text-align: center;
+  }
+
+  .resume-about-Img {
+    width: auto;
+    height: 285px;
+    object-fit: cover;
+  }
+
+  .featurette .resume-aboutMe-col {
+    order: 2;
+  }
+  .featurette .resume-aboutMeImg-col {
+    order: 1;
+  }
+}
+
+/* * 首頁 自我介紹 col */
+@media (min-width: 768px) {
+  .resume-aboutMe-col-md-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  .resume-aboutMe-col-md-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  .resume-aboutMe-col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .resume-aboutMe-col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .resume-aboutMe-col-md-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .resume-aboutMe-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .resume-aboutMe-col-md-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+
+  .resume-aboutMe-col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  .resume-aboutMe-col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .resume-aboutMe-col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  .resume-aboutMe-col-md-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .resume-aboutMe-col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* * 首頁的自我介紹圖片  */
+  .resume-aboutMeImg-col {
+    flex: 0 0 53.333333%;
+    max-width: 53.333333%;
+  }
+  .resume-aboutMe-col {
+    flex: 0 0 46.666667%;
+    max-width: 46.666667%;
+  }
+}
+
+/* * 首頁 作品介紹 文字  */
+
+.introduction-of-works-blockDiv {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.introduction-of-works-BigTitle {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+  letter-spacing: 0.12em;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* * 作品介紹 -- 星際旅行 */
+
+.introduction-of-works-interstellar-travel-background {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B%E6%97%85%E8%A1%8C.png?alt=media&token=948984b9-6ad5-4eae-b040-bf487b9ed3b4");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  max-width: 100%;
+  height: 800px;
+}
+
+.introduction-of-works-interstellar-travel-textBox-position {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction-of-works-interstellar-travel-textBox {
+  position: absolute;
+  width: 526px;
+  height: 400px;
+  top: 200px;
+  bottom: 200px;
+  left: 1081px;
+  right: 313px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.introduction-of-works-interstellar-travel-firstBox {
+  padding: 80px 40px 40px 40px;
+}
+
+.introduction-of-works-interstellar-travel-hr {
+  border: 0px, 0px, 1px, 0px;
+  margin-top: 40px;
+  color: white;
+  opacity: 1;
+}
+
+.introduction-of-works-interstellar-travel-title {
+  padding: 0px 0px 8px 0px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.introduction-of-works-interstellar-travel-content {
+  padding: 0px 0px 24px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.introduction-of-works-interstellar-travel-hashTag {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 88px;
+  height: 32px;
+  padding: 4px 12px 4px 12px;
+  margin-right: 16px;
+  border-radius: 16px;
+  color: rgba(59, 59, 59, 1);
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px;
+}
+
+.introduction-of-works-interstellar-travel-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction-of-works-interstellar-travel-button {
+  width: 176px;
+  height: 62px;
+  padding: 16px 8px 16px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.introduction-of-works-interstellar-travel-rightIcon {
+  width: 15.57px;
+  height: 15.16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* * 作品介紹 -- 星際旅行 RWD */
+
+.introduction-of-works-interstellar-travel-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* * 星際旅行---小螢幕圖片專區 */
+  .introduction-of-works-interstellar-travel-background {
+    display: none;
+  }
+
+  .introduction-of-works-interstellar-travel-sm {
+    display: block;
+  }
+
+  /* * 星際旅行 - 小螢幕文字區 */
+
+  .introduction-of-works-blockDiv {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .introduction-of-works-interstellar-travel-firstBox {
+    padding: 24px 24px 24px 24px;
+  }
+
+  .introduction-of-works-interstellar-travel-title {
+    padding: 0 0 8px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+  }
+
+  .introduction-of-works-interstellar-travel-content {
+    padding: 0 0 16px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(91, 91, 91, 1);
+  }
+
+  .introduction-of-works-interstellar-travel-hashTag {
+    color: rgba(59, 59, 59, 1);
+    text-align: center;
+    background: rgba(241, 241, 241, 1);
+  }
+
+  .introduction-of-works-interstellar-travel-button-box {
+    padding-bottom: 48px;
+  }
+
+  .introduction-of-works-interstellar-travel-button {
+    width: 128px;
+    height: 40px;
+    padding: 8px 8px 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.introduction-of-works-title-deco {
+  padding-bottom: 16px;
+  border: 1px 0px 0px 0px;
+}
+
+/* * 首頁 作品介紹 理財App 大螢幕區 */
+
+.financial-management-Img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1app.png?alt=media&token=738031c8-1df3-4369-8a4d-fba3912abd86");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.financial-management-textBox-position {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.financial-management-textBox {
+  position: absolute;
+  width: 526px;
+  height: 400px;
+  top: 200px;
+  bottom: 200px;
+  left: 312px;
+  right: 1082px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.financial-management-firstBox {
+  padding: 80px 40px 40px 40px;
+}
+
+.financial-management-hr {
+  border: 0px, 0px, 1px, 0px;
+  margin-top: 40px;
+  color: white;
+  opacity: 1;
+}
+
+.financial-management-title {
+  padding: 0px 0px 8px 0px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.financial-management-content {
+  padding: 0px 0px 24px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.financial-management-hashTag {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 88px;
+  height: 32px;
+  padding: 4px 12px 4px 12px;
+  margin-right: 16px;
+  border-radius: 16px;
+  color: rgba(59, 59, 59, 1);
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px;
+}
+
+.financial-management-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.financial-management-button {
+  width: 176px;
+  height: 62px;
+  padding: 16px 8px 16px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.financial-management-rightIcon {
+  width: 15.57px;
+  height: 15.16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.financial-management-Img-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* * 首頁 作品介紹 理財APP---圖片區 */
+  .financial-management-Img {
+    display: none;
+  }
+
+  .financial-management-Img-sm {
+    display: block;
+  }
+
+  /* * 首頁 作品介紹 理財APP---小螢幕文字區 */
+
+  .financial-management-firstBox {
+    padding: 24px 24px 24px 24px;
+  }
+
+  .financial-management-title {
+    padding: 0 0 8px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+  }
+
+  .financial-management-content {
+    padding: 0 0 16px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(91, 91, 91, 1);
+  }
+
+  .financial-management-hashTag {
+    color: rgba(59, 59, 59, 1);
+    text-align: center;
+    background: rgba(241, 241, 241, 1);
+  }
+
+  .financial-management-button-box {
+    padding-bottom: 48px;
+  }
+
+  .financial-management-button {
+    width: 128px;
+    height: 40px;
+    padding: 8px 8px 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+/* * 作品介紹 -- 醫美診所 */
+
+.medical-beauty-clinic-background {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%B2%B9%E7%A9%B6%E7%BE%8E%E5%AD%B8.png?alt=media&token=ee5ea9f1-6f78-480c-a72b-519c9eb9b66f");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  max-width: 100%;
+  height: 800px;
+}
+
+.medical-beauty-clinic-textBox-position {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medical-beauty-clinic-textBox {
+  position: absolute;
+  width: 526px;
+  height: 400px;
+  top: 200px;
+  bottom: 200px;
+  left: 1081px;
+  right: 313px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.medical-beauty-clinic-firstBox {
+  padding: 80px 40px 40px 40px;
+}
+
+.medical-beauty-clinic-hr {
+  border: 0px, 0px, 1px, 0px;
+  margin-top: 40px;
+  color: white;
+  opacity: 1;
+}
+
+.medical-beauty-clinic-title {
+  padding: 0px 0px 8px 0px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.medical-beauty-clinic-content {
+  padding: 0px 0px 24px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.medical-beauty-clinic-hashTag {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 88px;
+  height: 32px;
+  padding: 4px 12px 4px 12px;
+  margin-right: 16px;
+  border-radius: 16px;
+  color: rgba(59, 59, 59, 1);
+  background: rgba(255, 255, 255, 1);
+  border-bottom: 1px;
+}
+
+.medical-beauty-clinic-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.medical-beauty-clinic-button {
+  width: 176px;
+  height: 62px;
+  padding: 16px 8px 16px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.medical-beauty-clinic-rightIcon {
+  width: 15.57px;
+  height: 15.16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* * 作品介紹 -- 醫美診所 RWD */
+
+.medical-beauty-clinic-sm {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* * 醫美診所---小螢幕圖片專區 */
+  .medical-beauty-clinic-background {
+    display: none;
+  }
+
+  .medical-beauty-clinic-sm {
+    display: block;
+  }
+
+  /* * 醫美診所 - 小螢幕文字區 */
+
+  .medical-beauty-clinic-firstBox {
+    padding: 24px 24px 24px 24px;
+  }
+
+  .medical-beauty-clinic-title {
+    padding: 0 0 8px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(30, 30, 30, 1);
+  }
+
+  .medical-beauty-clinic-content {
+    padding: 0 0 16px 0;
+    margin: 0;
+    text-align: center;
+    color: rgba(91, 91, 91, 1);
+  }
+
+  .medical-beauty-clinic-hashTag {
+    color: rgba(59, 59, 59, 1);
+    text-align: center;
+    background: rgba(241, 241, 241, 1);
+  }
+
+  .medical-beauty-clinic-button-box {
+    padding-bottom: 48px;
+  }
+
+  .medical-beauty-clinic-button {
+    width: 128px;
+    height: 40px;
+    padding: 8px 8px 8px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+/* *首頁 服務項目 */
+
+.service-items-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/services.png?alt=media&token=bbf1a669-b6c9-489f-ae3d-f735e40e0157");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 881px;
+}
+
+.service-items-box {
+  width: 306px;
+  height: 306px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 20px, 30px, 20px, 30px;
+  margin-left: 16px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 1);
+  transition: box-shadow 1s, background-color 1s, filter 1s;
+}
+
+.service-items-box:hover {
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+  filter: brightness(1.5);
+}
+
+.service-items-title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-align: center;
+}
+
+.service-items-position {
+  width: 176px;
+  height: 62px;
+  padding: 16px 8px 16px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.service-items-button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.service-items-button {
+  width: 276px;
+  height: 62px;
+  padding: 16px 8px 16px 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.service-items-rightIcon {
+  width: 15.57px;
+  height: 15.16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* * 首頁 服務項目 小螢幕 */
+
+@media (max-width: 768px) {
+  .service-items-img {
+    height: auto;
+    padding-bottom: 120px;
+  }
+
+  .service-items-box {
+    margin: 24px 34.5px 24px 34.5px;
+  }
+
+  .service-items-title {
+    padding: 0;
+    margin: 40px 83.5px 24px 83.5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .service-items-button {
+    width: 208px;
+    height: 40px;
+    padding: 8px 16px 8px 16px !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+/* * 首頁 精選文章  */
+
+.featured-articlescard-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.featured-articlescard-img-top {
+  width: 416px;
+  height: 234px;
+  border-radius: 8px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.featured-articlescard-img-content {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.featured-articlescard-img-hashtag-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.featured-articlescard-img-hashtag {
+  width: 105px;
+  height: 32px;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  background: rgba(241, 241, 241, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.featured-articlescard-img-time {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(91, 91, 91, 1);
+}
+
+/* * Footer  */
+
+.anypage-footer-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/footer-lg.png?alt=media&token=ae3be735-f3bc-441a-bbde-86a707aec50e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 424px;
+}
+
+.anypage-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anypage-footer-box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.anypage-footer-box2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.anypage-footer-box-Noel {
+  width: 120px;
+  height: 54px;
+  margin: 119px 0 24px 0;
+}
+
+.anypage-footer-box-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(59, 59, 59, 1);
+}
+
+.anypage-footer-box-gmail {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(145, 145, 145, 1);
+  padding: 24px 0 0 0;
+}
+
+.anypage-footer-box-firstButton {
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.anypage-footer-box-firstButton,
+.anypage-footer-box-Button {
+  width: 306px;
+  height: 72px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  /* * Footer 小螢幕 */
+  .anypage-footer-img {
+    height: auto;
+  }
+
+  .anypage-footer {
+    display: inline;
+  }
+  .anypage-footer-box1 {
+    align-items: center;
+  }
+
+  .anypage-footer-box2 {
+    display: block;
+    text-align: center;
+  }
+
+  .anypage-footer-box-Noel {
+    margin: 40px 0 24px 0;
+    width: 120px;
+    height: 54px;
+  }
+
+  .anypage-footer-box-content {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .anypage-footer-box-gmail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(145, 145, 145, 1);
+    padding: 24px 0 0 0;
+  }
+
+  .anypage-footer-box-firstButton {
+    margin-top: 40px;
+  }
+
+  .anypage-footer-box-Button {
+    height: 64px;
+    padding: 4px 24px 4px 24px;
+  }
+}
+
+/* *終點 */
