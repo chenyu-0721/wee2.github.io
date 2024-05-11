@@ -877,13 +877,14 @@ a {
   }
 }
 
-/* * 首頁 Nav */
+/* * 開始 首頁 Nav */
 
 .resume-cover-nav-li,
 .resume-cover-nav-li-padding {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
+  text-align: left;
   color: #000000;
 }
 
@@ -899,7 +900,8 @@ a {
 
 .nav-hover-upperLeft {
   top: 0px;
-  left: 40px;
+  left: 0px;
+  margin-left: 40px;
   border-top: 1px solid #919191;
   border-left: 1px solid #919191;
 }
@@ -916,8 +918,9 @@ a {
   border-bottom: 1px solid #919191;
 }
 .nav-hover-lowerLeft {
-  left: 40px;
+  left: 0;
   bottom: 0;
+  margin-left: 40px;
   border-left: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
@@ -965,7 +968,7 @@ a {
 
 .nav-hover-upperLeft-StopPage {
   top: 0;
-  left: 0;
+  left: 0px;
   border-top: 1px solid #919191;
   border-left: 1px solid #919191;
 }
@@ -988,19 +991,81 @@ a {
   border-bottom: 1px solid #919191;
 }
 
+/* * Nav padding 特效 */
+
+.nav-hover-upperLeft-StopPage-padding,
+.nav-hover-upperRight-StopPage-padding,
+.nav-hover-lowerRight-StopPage-padding,
+.nav-hover-lowerLeft-StopPage-padding {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-link:hover .nav-hover-upperLeft-StopPage-padding,
+.nav-link:hover .nav-hover-upperRight-StopPage-padding,
+.nav-link:hover .nav-hover-lowerRight-StopPage-padding,
+.nav-link:hover .nav-hover-lowerLeft-StopPage-padding {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+.nav-hover-upperLeft-StopPage-padding {
+  top: 0;
+  left: 40px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight-StopPage-padding {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight-StopPage-padding {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft-StopPage-padding {
+  left: 40px;
+  bottom: 0;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+
 /* * Nav Media 768px  */
 
 @media (max-width: 768px) {
-  .resume-cover-nav-li-padding {
-    padding-left: 0px;
-  }
-
   .resume-cover-nav-margin {
     margin-left: 0px;
+  }
+
+  /* * 作品集 服務項目 部落格 聯絡我 padding的導覽列 小螢幕*/
+  .nav-hover-upperLeft-StopPage-padding {
+    left: 0px;
+  }
+  .nav-hover-lowerLeft-StopPage-padding {
+    left: 0px;
+  }
+}
+
+/* * 首頁自我介紹 992PX*/
+@media (max-width: 1200px) {
+  .resume-cover-nav-li-padding {
+    padding-left: 0px;
   }
 }
 
 /* *首頁 自我介紹 篇*/
+.resume-aboutMeImg-col,
+.resume-aboutMe-col {
+  display: flex !important;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .resume-about-title {
   font-size: 40px;
@@ -1064,8 +1129,13 @@ a {
   .featurette .resume-aboutMe-col {
     order: 2;
   }
+
   .featurette .resume-aboutMeImg-col {
     order: 1;
+  }
+
+  .resume-about-icon-padding {
+    padding-left: 30px;
   }
 }
 
@@ -1253,7 +1323,7 @@ a {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1626px) {
   /* * 星際旅行---小螢幕圖片專區 */
   .introduction-of-works-interstellar-travel-background {
     display: none;
@@ -1413,7 +1483,7 @@ a {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1626px) {
   /* * 首頁 作品介紹 理財APP---圖片區 */
   .financial-management-Img {
     display: none;
@@ -1567,7 +1637,7 @@ a {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1626px) {
   /* * 醫美診所---小螢幕圖片專區 */
   .medical-beauty-clinic-background {
     display: none;
@@ -1694,7 +1764,7 @@ a {
 
 /* * 首頁 服務項目 小螢幕 */
 
-@media (max-width: 768px) {
+@media (max-width: 1626px) {
   .service-items-img {
     height: auto;
     padding-bottom: 120px;
@@ -1725,19 +1795,13 @@ a {
 
 /* * 首頁 精選文章  */
 
-.featured-articlescard-img-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.card {
+  border: none;
 }
 
 .featured-articlescard-img-top {
-  width: 416px;
   height: 234px;
   border-radius: 8px;
-  padding-right: 5px;
-  padding-left: 5px;
 }
 
 .featured-articlescard-img-content {
@@ -1798,6 +1862,7 @@ a {
 .anypage-footer-box2 {
   display: flex;
   flex-direction: column;
+  padding-top: 80px;
 }
 
 .anypage-footer-box-Noel {
@@ -1827,7 +1892,6 @@ a {
   margin-top: 80px;
 }
 
-.anypage-footer-box-firstButton,
 .anypage-footer-box-Button {
   width: 306px;
   height: 72px;
@@ -1840,7 +1904,7 @@ a {
   margin-bottom: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1626px) {
   /* * Footer 小螢幕 */
   .anypage-footer-img {
     height: auto;
@@ -1886,6 +1950,31 @@ a {
     height: 64px;
     padding: 4px 24px 4px 24px;
   }
+}
+
+/* * 作品集Title */
+
+.works-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E4%BD%9C%E5%93%81%E9%9B%86.png?alt=media&token=9873994a-b0cc-4614-b456-657d14904bfe");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 460px;
+}
+
+.works-img-Firsttitle,
+.works-img-Secondtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: rgba(30, 30, 30, 1);
+}
+
+.works-img-Firsttitle {
+  padding-top: 139px;
+}
+
+.works-img-Firsttitle {
 }
 
 /* *終點 */

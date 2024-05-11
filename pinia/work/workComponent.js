@@ -1,59 +1,61 @@
 export default {
   template: ` 
-
-  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
+  <!-- <nav class="container  container_text navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand " href="#"><img class="navbar_img" src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
+                <a class="navbar-brand " href="#"><img class="navbar_img"
+                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
                 <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto  mb-md-0">
+                    <ul class="navbar-nav resume-cover-nav-margin">
                         <li class="nav-item ">
-                            <a href="#" class="nav-link" aria-current="page">
-                                <span class="navbar_span nav-font ">首頁</span>
-                                <span class="nav-box1"></span>
-                                <span class="nav-box2"></span>
-                                <span class="nav-box3"></span>
-                                <span class="nav-box4"></span>
+                            <a href="#" class="nav-link " aria-current="page">
+                                <span class="resume-cover-nav-li">首頁</span>
+                                <span class="nav-hover-upperLeft"></span>
+                                <span class="nav-hover-upperRight"></span>
+                                <span class="nav-hover-lowerRight"></span>
+                                <span class="nav-hover-lowerLeft"></span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#/work" class="nav-link" aria-current="page">
-                                <span class="navbar_span second-title-color nav-font ">作品集</span>
-                                <span class="nav-box1-work"></span>
-                                <span class="nav-box2-work"></span>
-                                <span class="nav-box3-work"></span>
-                                <span class="nav-box4-work"></span>
+                                <span class="resume-cover-nav-li-padding">作品集</span>
+                                <span class="nav-hover-upperLeft-StopPage-padding"></span>
+                                <span class="nav-hover-upperRight-StopPage-padding"></span>
+                                <span class="nav-hover-lowerRight-StopPage-padding"></span>
+                                <span class="nav-hover-lowerLeft-StopPage-padding"></span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#/serve" class="nav-link " aria-current="page">
-                                <span class="navbar_span nav-font ">服務項目</span>
-                                <span class="nav-box1"></span>
-                                <span class="nav-box2"></span>
-                                <span class="nav-box3"></span>
-                                <span class="nav-box4"></span>
+                            <a href="#/serve" class="nav-link" aria-current="page">
+
+                                <span class="resume-cover-nav-li-padding">服務項目</span>
+                                <span class="nav-hover-upperLeft"></span>
+                                <span class="nav-hover-upperRight"></span>
+                                <span class="nav-hover-lowerRight"></span>
+                                <span class="nav-hover-lowerLeft"></span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#/blog" class="nav-link " aria-current="page">
-                                <span class="navbar_span nav-font ">部落格</span>
-                                <span class="nav-box1"></span>
-                                <span class="nav-box2"></span>
-                                <span class="nav-box3"></span>
-                                <span class="nav-box4"></span>
+                            <a href="#blog" class="nav-link " aria-current="page">
+
+                                <span class="resume-cover-nav-li-padding">部落格</span>
+                                <span class="nav-hover-upperLeft"></span>
+                                <span class="nav-hover-upperRight"></span>
+                                <span class="nav-hover-lowerRight"></span>
+                                <span class="nav-hover-lowerLeft"></span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link " aria-current="page">
-                                <span class="navbar_span nav-font ">聯絡我</span>
-                                <span class="nav-box1"></span>
-                                <span class="nav-box2"></span>
-                                <span class="nav-box3"></span>
-                                <span class="nav-box4"></span>
+                                <span class="resume-cover-nav-li-padding">聯絡我</span>
+                                <span class="nav-hover-upperLeft"></span>
+                                <span class="nav-hover-upperRight"></span>
+                                <span class="nav-hover-lowerRight"></span>
+                                <span class="nav-hover-lowerLeft"></span>
                             </a>
                         </li>
                     </ul>
@@ -61,12 +63,12 @@ export default {
             </div>
         </nav>
 
-        <div class="bg-light">
-            <section class="py-5 text-center container ">
-                <div class="row py-lg-5">
+        <div class="works-img">
+            <section class="container text-center">
+                <div class="row ">
                     <div class="col-lg-9 col-md-7 mx-auto pb-5">
-                        <h1 class="fw-light second-content">讓使用者在觀賞與使用的旅程中，發現設計的價值</h1>
-                        <p class="lead  second-content">而我在設計與開發的過程中，看見自己的價值.</p>
+                        <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，發現設計的價值</h1>
+                        <p class="works-img-Secondtitle">而我在設計與開發的過程中，看見自己的價值.</p>
                     </div>
                     <div class="col-lg-6 ">
                         <h1 class="fw-light" style="color:#5B5B5B; font-size:25px">2B經驗</h1>
@@ -79,139 +81,153 @@ export default {
                             跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
                     </div>
                 </div>
-        </div>
-        </section>
-    </div>
+            </section>
+        </div> -->
 
 
-    <div class="album second-pd">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal1">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B.png?alt=media&token=bc711aeb-0065-48bc-9694-fdd93dc6ea35" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">星際旅行訂票平台</span>
-                            <br>
-                            <span class="information">悠遊宇宙的夢想，從這裡開始實現</span>
-                            <div class="tag-content ">
-                                <span class="hashtag">網頁設計</span>
-                                <span class="hashtag">響應式設計</span>
-                                <span class="hashtag">Bootstrap</span>
+
+        <!-- 
+        <div class="album second-pd">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E6%98%9F%E9%9A%9B.png?alt=media&token=bc711aeb-0065-48bc-9694-fdd93dc6ea35"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">星際旅行訂票平台</span>
+                                <br>
+                                <span class="information">悠遊宇宙的夢想，從這裡開始實現</span>
+                                <div class="tag-content ">
+                                    <span class="hashtag">網頁設計</span>
+                                    <span class="hashtag">響應式設計</span>
+                                    <span class="hashtag">Bootstrap</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal2">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1.png?alt=media&token=8b0f8096-92ec-47bf-b79a-00932ed23feb" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">理財App</span><br>
-                            <span class="information">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</span>
-                            <div class="tag-content">
-                                <span class="hashtag">APP設計</span>
-                                <span class="hashtag">iOS</span>
-                                <span class="hashtag">React</span>
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%90%86%E8%B2%A1.png?alt=media&token=8b0f8096-92ec-47bf-b79a-00932ed23feb"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">理財App</span><br>
+                                <span class="information">連動帳戶與行動支付，讓 AI 提供您最好的理財建議</span>
+                                <div class="tag-content">
+                                    <span class="hashtag">APP設計</span>
+                                    <span class="hashtag">iOS</span>
+                                    <span class="hashtag">React</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal3">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E8%A8%BA%E6%89%80.png?alt=media&token=47181666-dca5-4d5b-b76a-9d89c8ccac26" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">醫美診所官網</span><br>
-                            <span class="information">永保青春的秘密，從粹究開始</span>
-                            <div class="tag-content">
-                                <span class="hashtag">網頁設計</span>
-                                <span class="hashtag">響應式設計</span>
-                                <span class="hashtag">ＷordPress</span>
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal3">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E8%A8%BA%E6%89%80.png?alt=media&token=47181666-dca5-4d5b-b76a-9d89c8ccac26"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">醫美診所官網</span><br>
+                                <span class="information">永保青春的秘密，從粹究開始</span>
+                                <div class="tag-content">
+                                    <span class="hashtag">網頁設計</span>
+                                    <span class="hashtag">響應式設計</span>
+                                    <span class="hashtag">ＷordPress</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal4">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%BE%8E%E7%BE%8E%E7%BE%8E%E6%97%A9%E9%A4%90.png?alt=media&token=f5d47a52-b12d-43e0-b2e4-37ad0f1e054a" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">美美美早餐店 POS 機 UI Design</span>
-                            <br>
-                            <span class="information">訂單送單一目瞭然，自動報表分析好輕鬆</span>
-                            <div class="tag-content">
-                                <span class="hashtag">UI 設計</span>
-                                <span class="hashtag">前端開發</span>
-                                <span class="hashtag">Wix</span>
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal4">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E7%BE%8E%E7%BE%8E%E7%BE%8E%E6%97%A9%E9%A4%90.png?alt=media&token=f5d47a52-b12d-43e0-b2e4-37ad0f1e054a"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">美美美早餐店 POS 機 UI Design</span>
+                                <br>
+                                <span class="information">訂單送單一目瞭然，自動報表分析好輕鬆</span>
+                                <div class="tag-content">
+                                    <span class="hashtag">UI 設計</span>
+                                    <span class="hashtag">前端開發</span>
+                                    <span class="hashtag">Wix</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal5">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E9%9B%BB%E5%BD%B1%E9%99%A2.png?alt=media&token=08fd0c2e-6788-44f8-a1ff-4dff8da4a847" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">電影院訂票系統</span>
-                            <br>
-                            <span class="information">三步驟完成訂票，電腦手機都支援</span>
-                            <div class="tag-content">
-                                <span class="hashtag">前端開發</span>
-                                <span class="hashtag">後端支援</span>
-                                <span class="hashtag">Vue</span>
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal5">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E9%9B%BB%E5%BD%B1%E9%99%A2.png?alt=media&token=08fd0c2e-6788-44f8-a1ff-4dff8da4a847"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">電影院訂票系統</span>
+                                <br>
+                                <span class="information">三步驟完成訂票，電腦手機都支援</span>
+                                <div class="tag-content">
+                                    <span class="hashtag">前端開發</span>
+                                    <span class="hashtag">後端支援</span>
+                                    <span class="hashtag">Vue</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal6">
-                    <div class="">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E5%B7%A7%E5%85%8B%E5%B7%A7%E5%85%8B.png?alt=media&token=43d4255d-5747-45d7-aadb-1f3b8eee8f96" class="card-img-top secondImg">
-                        <div class="card-body">
-                            <span class="SecondTitle">巧克巧克形象官網設計</span>
-                            <br>
-                            <span class="information">三步驟完成訂票，電腦手機都支援</span>
-                            <div class="tag-content">
-                                <span class="hashtag">UI設計</span>
-                                <span class="hashtag">設計系統</span>
-                                <span class="hashtag">網路電商 </span>
+                    <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#modal6">
+                        <div class="">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/%E5%B7%A7%E5%85%8B%E5%B7%A7%E5%85%8B.png?alt=media&token=43d4255d-5747-45d7-aadb-1f3b8eee8f96"
+                                class="card-img-top secondImg">
+                            <div class="card-body">
+                                <span class="SecondTitle">巧克巧克形象官網設計</span>
+                                <br>
+                                <span class="information">三步驟完成訂票，電腦手機都支援</span>
+                                <div class="tag-content">
+                                    <span class="hashtag">UI設計</span>
+                                    <span class="hashtag">設計系統</span>
+                                    <span class="hashtag">網路電商 </span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div> -->
 
 
 
 
-    <div class="bg-light" id="callme">
-        <div class="container " style="padding-bottom:40px">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-nav">
-                <div class="col-md-4 d-flex">
-                    <h1 class=""><img
-                            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"><br><span
-                            class="footer-content">若有數位產品設計和開發相關問題<br>歡迎填寫表單，或直接與我聯絡！<br><span
-                                class="footer-tag">service@hexschool.com</span>
-                    </h1>
-                </div>
+        <!-- <div class="anypage-footer-img" id="callme">
+            <div class="container">
+                <footer class="anypage-footer">
+                    <div class="anypage-footer-box1">
+                        <img class="anypage-footer-box-Noel"
+                            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg">
+                        <span class="anypage-footer-box-content">若有數位產品設計和開發相關問題</span>
+                        <span class="anypage-footer-box-content">歡迎填寫表單，或直接與我聯絡！</span>
+                        <span class="anypage-footer-box-gmail">service@hexschool.com</span>
+                    </div>
+                    <div class="anypage-footer-box2">
+                        <a class="text-muted" href="">
+                            <button type="button" class="btn btn-dark anypage-footer-box-firstButton"><img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
+                            </button>
+                        </a>
 
-                <ul class="footer-nav-li col-md-4 justify-content-end list-unstyled d-flex flex-direction-column ">
-                    <li class="ms-3"><a class="text-muted"
-                            href="">
-                            <div><button type="button" class="btn btn-outline-dark footer-button"><i
-                                        class="bi bi-book footer-icon"></i>填寫表單</button>
-                        </a></li>
-                    <li class="ms-3"><a class="text-muted" href=""><button type="button"
-                                class="btn btn-outline-dark footer-button"><i
-                                    class="bi bi-instagram footer-icon"></i>hexschool_demo</button></a></li>
-                    <li class="ms-3"><a class="text-muted" href=""><button type="button"
-                                class="btn btn-outline-dark footer-button"><i
-                                    class="bi bi-facebook footer-icon"></i>hexschoolTW</button></a></li>
-                </ul>
-            </footer>
-        </div>
-    </div>
+                        <a class="text-muted" href="">
+                            <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">hexschool_demo
+                            </button>
+                        </a>
+
+                        <a class="text-muted" href="">
+                            <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
+                                <img
+                                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">hexschoolTW
+                            </button>
+                        </a>
+
+                    </div>
+                </footer>
+            </div>
+        </div> -->
 
 
-
+        <!-- 
     <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -261,17 +277,8 @@ export default {
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-
-
-
-
-    <div class="goTop">
-        <a href="#" class="goTopBtn jq-goTop">
-            <i class="bi bi-arrow-up-circle-fill"></i>
-        </a>
-    </div>
+    </div> -->
+  
 `,
   mounted() {
     $(document).ready(function () {
