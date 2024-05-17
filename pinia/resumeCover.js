@@ -8,7 +8,7 @@ export default {
 
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="navbar_img"
+      <a class="navbar-brand " href="#"><img class="navbar_img"
               src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
       <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -28,7 +28,7 @@ export default {
               </li>
               <li class="nav-item">
                   <a href="#/work" class="nav-link" aria-current="page">
-                      <span class="resume-cover-nav-li-padding">作品集</span>
+                      <span class="resume-cover-nav-li">作品集</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -38,7 +38,7 @@ export default {
               <li class="nav-item">
                   <a href="#/serve" class="nav-link" aria-current="page">
 
-                      <span class="resume-cover-nav-li-padding">服務項目</span>
+                      <span class="resume-cover-nav-li">服務項目</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -48,7 +48,7 @@ export default {
               <li class="nav-item">
                   <a href="#blog" class="nav-link " aria-current="page">
 
-                      <span class="resume-cover-nav-li-padding">部落格</span>
+                      <span class="resume-cover-nav-li">部落格</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -57,7 +57,7 @@ export default {
               </li>
               <li class="nav-item">
                   <a href="#" class="nav-link " aria-current="page">
-                      <span class="resume-cover-nav-li-padding">聯絡我</span>
+                      <span class="resume-cover-nav-li">聯絡我</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
