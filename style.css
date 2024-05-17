@@ -2145,7 +2145,7 @@ a {
   margin-top: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   /* *作品集 modal */
   .modal-star-travel-position2-active {
     display: none;
