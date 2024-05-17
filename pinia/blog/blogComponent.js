@@ -1,67 +1,66 @@
 export default {
   template: `
-    <nav class="container  container_text navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <a class="navbar-brand " href="#"><img class="navbar_img"
-                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
-        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ms-auto  mb-md-0">
-                <li class="nav-item ">
-                    <a href="#" class="nav-link " aria-current="page">
-                        <span class="navbar_span nav-font ">首頁</span>
-                        <span class="nav-box1"></span>
-                        <span class="nav-box2"></span>
-                        <span class="nav-box3"></span>
-                        <span class="nav-box4"></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#/work" class="nav-link" aria-current="page">
-                        <span class="navbar_span nav-font ">作品集</span>
-                        <span class="nav-box1"></span>
-                        <span class="nav-box2"></span>
-                        <span class="nav-box3"></span>
-                        <span class="nav-box4"></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#/serve" class="nav-link" aria-current="page">
+  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+      <a class="navbar-brand " href="#"><img class="navbar_img"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav resume-cover-nav-margin">
+              <li class="nav-item ">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">首頁</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/work" class="nav-link" aria-current="page">
+                      <span class="resume-cover-nav-li">作品集</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/serve" class="nav-link" aria-current="page">
 
-                        <span class="navbar_span nav-font ">服務項目</span>
-                        <span class="nav-box1"></span>
-                        <span class="nav-box2"></span>
-                        <span class="nav-box3"></span>
-                        <span class="nav-box4"></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#blog" class="nav-link anchor" aria-current="page">
+                      <span class="resume-cover-nav-li">服務項目</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#blog" class="nav-link " aria-current="page">
 
-                        <span class="navbar_span nav-font ">部落格</span>
-                        <span class="nav-box1-work"></span>
-                        <span class="nav-box2-work"></span>
-                        <span class="nav-box3-work"></span>
-                        <span class="nav-box4-work"></span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link anchor " aria-current="page">
-
-                        <span class="navbar_span nav-font ">聯絡我</span>
-                        <span class="nav-box1"></span>
-                        <span class="nav-box2"></span>
-                        <span class="nav-box3"></span>
-                        <span class="nav-box4"></span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
+                      <span class="resume-cover-nav-li">部落格</span>
+                      <span class="nav-hover-upperLeft-StopPage"></span>
+                      <span class="nav-hover-upperRight-StopPage"></span>
+                      <span class="nav-hover-lowerRight-StopPage"></span>
+                      <span class="nav-hover-lowerLeft-StopPage"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">聯絡我</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
 </nav>
 
 <h1 class="text-center project-Introduction-title">部落格</h1>
@@ -177,31 +176,41 @@ export default {
 </div>
 
 
-<div class="bg-light" id="callme">
-    <div class="container " style="padding-bottom:40px">
-        <footer class="d-flex flex-wrap justify-c ontent-between align-items-center py-3 my-4 footer-nav">
-            <div class="col-md-4 d-flex">
-                <h1 class=""><img
-                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"><br><span
-                        class="footer-content">若有數位產品設計和開發相關問題<br>歡迎填寫表單，或直接與我聯絡！<br><span
-                            class="footer-tag">service@hexschool.com</span>
-                </h1>
-            </div>
+<div class="anypage-footer-img" id="callme">
+  <div class="container">
+      <footer class="anypage-footer">
+          <div class="anypage-footer-box1">
+              <img class="anypage-footer-box-Noel"
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg">
+              <span class="anypage-footer-box-content">若有數位產品設計和開發相關問題</span>
+              <span class="anypage-footer-box-content">歡迎填寫表單，或直接與我聯絡！</span>
+              <span class="anypage-footer-box-gmail">service@hexschool.com</span>
+          </div>
+          <div class="anypage-footer-box2">
+              <a class="text-muted" href="">
+                  <button type="button" class="btn btn-outline-dark anypage-footer-box-Button active"><img
+                          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
+                  </button>
+              </a>
 
-            <ul class="footer-nav-li col-md-4 justify-content-end list-unstyled d-flex flex-direction-column ">
-                <li class="ms-3"><a class="text-muted" href="">
-                        <div><button type="button" class="btn btn-outline-dark footer-button"><i
-                                    class="bi bi-book footer-icon"></i>填寫表單</button>
-                    </a></li>
-                <li class="ms-3"><a class="text-muted" href=""><button type="button"
-                            class="btn btn-outline-dark footer-button"><i
-                                class="bi bi-instagram footer-icon"></i>hexschool_demo</button></a></li>
-                <li class="ms-3"><a class="text-muted" href=""><button type="button"
-                            class="btn btn-outline-dark footer-button"><i
-                                class="bi bi-facebook footer-icon"></i>hexschoolTW</button></a></li>
-            </ul>
-        </footer>
-    </div>
+              <a class="text-muted" href="">
+                  <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
+                          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">hexschool_demo
+                  </button>
+              </a>
+
+              <a class="text-muted" href="">
+                  <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
+                      <img
+                          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">hexschoolTW
+                  </button>
+              </a>
+
+          </div>
+      </footer>
+  </div>
+</div>
+
 </div>
 
     
