@@ -5,7 +5,7 @@ export default {
     };
   },
   template: ` 
-
+  <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
       <a class="navbar-brand " href="#"><img class="navbar_img"
@@ -68,6 +68,7 @@ export default {
       </div>
   </div>
 </nav>
+</div>
 
 <div class="row featurette">
   <div class="resume-aboutMe-col">

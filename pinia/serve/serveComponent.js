@@ -1,6 +1,6 @@
 export default {
   template: ` 
-
+  <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand " href="#"><img class="navbar_img"
@@ -63,7 +63,7 @@ export default {
                 </div>
             </div>
         </nav>
-
+</div>
         <div class="bg-light serviceBox">
             <div class="introduction-of-works-blockDiv">
                 <img class="introduction-of-works-title-deco"
@@ -411,19 +411,19 @@ export default {
                         <span class="anypage-footer-box-gmail">service@hexschool.com</span>
                     </div>
                     <div class="anypage-footer-box2">
-                        <a class="text-muted" href="">
+                        <a class="text-muted" href="#/serve">
                             <button type="button" class="btn btn-outline-dark anypage-footer-box-Button active"><img
                                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
                             </button>
                         </a>
 
-                        <a class="text-muted" href="">
+                        <a class="text-muted" href="#/serve">
                             <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
                                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">hexschool_demo
                             </button>
                         </a>
 
-                        <a class="text-muted" href="">
+                        <a class="text-muted" href="#/serve">
                             <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
                                 <img
                                     src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">hexschoolTW

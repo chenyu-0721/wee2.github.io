@@ -1,6 +1,6 @@
 export default {
   template: `
-    
+  <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
       <a class="navbar-brand " href="#"><img class="navbar_img"
@@ -63,12 +63,12 @@ export default {
       </div>
   </div>
 </nav>
+</div>
 
 
 
-
-<div class="container blog pt-5pb-5">
-  <div class=" g-3 fixed col-lg-11">
+<div class="container blog  " style="margin-top:120px; margin-bottom:80px">
+  <div class=" g-3 fixed col-lg-10">
       <div class="ms-3 col-md-10 blog-flex2">
 
           <span class="blog-content pt-3" style="color: #919191;font-size:18px">數位產品設計 / 2023/09/20 發佈</span>
@@ -224,19 +224,19 @@ export default {
               <span class="anypage-footer-box-gmail">service@hexschool.com</span>
           </div>
           <div class="anypage-footer-box2">
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/vr">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button active"><img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
                   </button>
               </a>
 
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/vr">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">hexschool_demo
                   </button>
               </a>
 
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/vr">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
                       <img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">hexschoolTW

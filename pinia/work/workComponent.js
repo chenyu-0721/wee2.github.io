@@ -1,6 +1,6 @@
 export default {
   template: ` 
- 
+  <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
       <a class="navbar-brand " href="#"><img class="navbar_img"
@@ -63,6 +63,7 @@ export default {
       </div>
   </div>
 </nav>
+</div>
 
 <div class="works-img">
   <section class="container text-center">
@@ -192,9 +193,9 @@ export default {
   <div class="container">
       <div aria-label="Page navigation">
           <ul class="pagination">
-              <li class="page-item"><a class="page-link bg-dark text-white" href="#">1</a></li>
-              <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
-              <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+              <li class="page-item"><a class="page-link bg-dark text-white" href="#/work">1</a></li>
+              <li class="page-item"><a class="page-link text-dark" href="#/work">2</a></li>
+              <li class="page-item"><a class="page-link text-dark" href="#/work">3</a></li>
           </ul>
       </div>
   </div>
@@ -271,19 +272,19 @@ export default {
               <span class="anypage-footer-box-gmail">service@hexschool.com</span>
           </div>
           <div class="anypage-footer-box2">
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/work">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button active"><img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/list.svg">填寫表單
                   </button>
               </a>
 
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/work">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button"><img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/instagram.svg">hexschool_demo
                   </button>
               </a>
 
-              <a class="text-muted" href="">
+              <a class="text-muted" href="#/work">
                   <button type="button" class="btn btn-outline-dark anypage-footer-box-Button">
                       <img
                           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/facebook.svg">hexschoolTW
