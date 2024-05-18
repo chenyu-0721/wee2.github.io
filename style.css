@@ -182,25 +182,6 @@ nav {
 
 /* * 服務項目 */
 
-.serviceContent-box {
-  width: 306px;
-  height: 306px;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-left: 16px;
-  font-size: 28px;
-  transition: box-shadow 1s, background-color 1s, filter 1s;
-}
-
-.serviceContent-box:hover {
-  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
-  filter: brightness(1.5);
-}
-
 .service-button {
   width: 300px;
   height: 62px;
@@ -2182,6 +2163,192 @@ a {
   }
 
   /* * 作品集modal結束*/
+}
+
+/* * 服務項目的 服務項目頁面 */
+
+.serviceBox {
+  padding-bottom: 120px;
+}
+
+.serviceProcess {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serviceProcess-flex {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 655px;
+  height: 147px;
+  border-radius: 4px;
+}
+
+.serviceProcess .serviceProcess-number {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  text-align: left;
+  padding-left: 32px;
+  color: #919191;
+}
+
+.serviceProcess .serviceProcess-flex2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 37.5px 32px;
+}
+
+.serviceProcess .serviceProcess-flex2 .serviceProcess-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.serviceProcess .serviceProcess-flex2 .serviceProcess-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #e9e9e9;
+}
+
+.serviceProcess-icon {
+  text-align: center;
+  padding: 16px 0px;
+}
+
+.bi-down {
+  color: #5b5b5b;
+  width: 20.22px;
+  height: 20.77px;
+}
+
+.serviceCost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 416px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin: 0px 12px;
+  box-shadow: 0px 4px 8px 0px #00000014;
+}
+
+.serviceCost-position {
+  margin-right: 12px;
+}
+
+.serviceCost .icon-img {
+  width: 42.01px;
+  height: 42px;
+  color: #c1c1c1;
+}
+
+.serviceCost h5 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  color: #5b5b5b;
+  margin: 0px;
+}
+
+.serviceCost .icon-line {
+  padding: 0px 16px;
+  margin: 0px;
+}
+
+.serviceCost h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #1e1e1e;
+  margin: 0px;
+}
+
+.serviceCost span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #5b5b5b;
+  padding-top: 10px;
+}
+
+.customer-position {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  /* *服務流程 */
+  .serviceProcess-flex {
+    width: 351px;
+    height: auto;
+  }
+}
+
+/* * 客戶案例 */
+
+.customer-position .card {
+  background: #fafafa;
+}
+
+/*  * qs問題 */
+.qsbox-position {
+  margin-bottom: 120px;
+}
+
+.qsbox {
+  width: 526px;
+  height: 141px;
+  padding: 24px 0px 0px 0px;
+  margin: 12px;
+  border-radius: 8px;
+  border: 1px solid #e9e9e9;
+}
+
+.qs-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  color: #3b3b3b;
+}
+
+.qs-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #5b5b5b;
+}
+
+/* * 部落格*/
+
+.blog-of-works-blockDiv {
+  padding-top: 120px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.blog-of-works-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #919191;
 }
 
 /* *終點 */

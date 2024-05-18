@@ -63,8 +63,18 @@ export default {
   </div>
 </nav>
 
-<h1 class="text-center project-Introduction-title">部落格</h1>
+<div class="blog-of-works-blockDiv">
+<img class="introduction-of-works-title-deco"
+    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
+<span class="introduction-of-works-BigTitle">部落格</span>
+<img class="introduction-of-works-title-deco"
+    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true"> 
+</div>
 
+
+<div class="blog-of-works-content">
+        <span>不定期分享技術文章</span>
+</div>
 <div class="container blog">
     <div class=" g-3 fixed col-lg-10">
         <div class="blog-flex">
