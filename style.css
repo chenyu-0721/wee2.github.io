@@ -785,6 +785,15 @@ nav {
 
 /* *首頁 服務項目 */
 
+.project-Introduction-serve-img {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/service-item-bg.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  max-width: 100%;
+  height: 1805px;
+}
+
 .service-items-img {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/services.png?alt=media&token=bbf1a669-b6c9-489f-ae3d-f735e40e0157");
   background-size: cover;
