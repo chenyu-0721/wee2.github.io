@@ -10,6 +10,10 @@ nav {
   padding: 32px !important;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 /* * 開始 首頁 Nav */
 
 .resume-cover-nav-li {
@@ -268,12 +272,12 @@ nav {
 
   /* * 首頁的自我介紹圖片  */
   .resume-aboutMeImg-col {
-    flex: 0 0 53.333333%;
-    max-width: 53.333333%;
+    flex: 0 0 55.333333%;
+    max-width: 55.333333%;
   }
   .resume-aboutMe-col {
-    flex: 0 0 46.666667%;
-    max-width: 46.666667%;
+    flex: 0 0 44.666667%;
+    max-width: 44.666667%;
   }
 }
 
