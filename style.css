@@ -574,6 +574,10 @@ nav {
     display: block;
   }
 
+  .navbar-nav {
+    align-items: center;
+  }
+
   .financial-management-textBox {
     display: flex !important;
     flex-wrap: wrap;
