@@ -71,22 +71,23 @@ export default {
 </div>
 
 <div class="row featurette">
-<div class="resume-aboutMe-col">
-    <h2 class="resume-about-title">Hi！我是 Noel</h2>
-    <span class="resume-about-content">具有 10 年經驗的<span class="img-border-bottom">資深
-            UI 設計師</span> 兼 <span class="img-border-bottom">前端工程師</span><br></span>
-    <span class="resume-about-content">技術雙修並行，熱衷於優化使用者的網頁體驗</span>
-    <span class="resume-about-remark">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</span>
-    <div class="resume-about-icon-padding ">
-        <a href=""><i class="bi bi-instagram resume-about-title-icon"></i></a>
-        <a href=""><i class="bi bi-facebook resume-about-title-icon"></i></a>
-        <a href=""><i class="bi bi-youtube resume-about-title-icon"></i></a>
-    </div>
+  <div class="resume-aboutMe-col">
+      <h2 class="resume-about-title">Hi！我是 Noel</h2>
+      <span class="resume-about-content">具有 10 年經驗的 資深 UI 設計師 兼 前端工程師<br></span>
+      <span class="resume-about-content">技術雙修並行，熱衷於優化使用者的網頁體驗</span>
+      <span class="resume-about-remark">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</span>
+      <div class="resume-about-icon-padding ">
+          <a href=""><i class="bi bi-instagram resume-about-title-icon"></i></a>
+          <a href=""><i class="bi bi-facebook resume-about-title-icon"></i></a>
+          <a href=""><i class="bi bi-youtube resume-about-title-icon"></i></a>
+      </div>
+  </div>
+  <div class="resume-aboutMeImg-col">
+      <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/hero-lg.png?alt=media&token=9f49926b-f44a-4ac8-8547-cb9cc4379510"
+          class="img-fluid resume-about-Img">
+  </div>
 </div>
-<div class="resume-aboutMeImg-col">
-    <img src="https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/hero-lg.png?alt=media&token=9f49926b-f44a-4ac8-8547-cb9cc4379510"
-        class="img-fluid resume-about-Img">
-</div>
+
 
 
 
@@ -299,7 +300,7 @@ export default {
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
 
-<div class="album py-5 featured-articles ">
+<div class="album py-5  ">
   <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  ">
           <div class="col">

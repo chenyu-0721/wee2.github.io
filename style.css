@@ -14,10 +14,6 @@ nav {
   --bs-gutter-x: 0;
 }
 
-.featured-articles .row {
-  --bs-gutter-x: 1.5rem;
-}
-
 /* * 開始 首頁 Nav */
 
 .resume-cover-nav-li {
@@ -1705,37 +1701,3 @@ nav {
 }
 
 /* *終點 */
-.img-border-bottom {
-  position: relative;
-}
-
-.img-border-bottom::after {
-  content: "";
-  position: absolute;
-  left: 0px;
-  right: 0;
-  bottom: 0;
-
-  height: 8px;
-  z-index: -1;
-  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true")
-    no-repeat center;
-  background-size: cover;
-}
-
-.work-img-border-bottom {
-  position: relative;
-}
-
-.work-img-border-bottom::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 5px;
-  z-index: 1;
-  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true")
-    no-repeat center;
-  background-size: cover;
-}
