@@ -69,8 +69,8 @@ export default {
   <section class="container text-center">
       <div class="row ">
           <div class="col-lg-9 col-md-7 mx-auto pb-5">
-              <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，發現設計的價值</h1>
-              <p class="works-img-Secondtitle">而我在設計與開發的過程中，看見自己的價值.</p>
+              <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，發現<span class="work-img-border-bottom">設計的價值</span></h1>
+              <p class="works-img-Secondtitle">而我在設計與開發的過程中，<span class="work-img-border-bottom">看見自己的價值</span>.</p>
           </div>
           <div class="d-flex justify-content-center">
               <div class=" col-lg-3 works-2B2C-box-left">
