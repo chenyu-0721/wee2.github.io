@@ -65,12 +65,12 @@ export default {
 </nav>
 </div>
 
-<div class="works-img">
+<div class="works-img  work-active">
   <section class="container text-center">
       <div class="row ">
-          <div class="col-lg-9 col-md-7 mx-auto pb-5">
-              <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，發現設計的價值</h1>
-              <p class="works-img-Secondtitle">而我在設計與開發的過程中，看見自己的價值.</p>
+          <div class="col-lg-19 col-md-6 mx-auto pb-5">
+              <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，發現<span class="work-img-border-bottom">設計的價值</span></h1>
+              <p class="works-img-Secondtitle">而我在設計與開發的過程中，看見<span class="work-img-border-bottom">自己的價值</span>.</p>
           </div>
           <div class="d-flex justify-content-center">
               <div class=" col-lg-3 works-2B2C-box-left">
@@ -88,6 +88,29 @@ export default {
   </section>
 </div>
 
+
+<div class="works-img work-active2">
+  <section class="container text-center">
+      <div class="row ">
+          <div class="col-lg-19 col-md-6 mx-auto pb-5">
+              <h1 class="works-img-Firsttitle">讓使用者在觀賞與使用的旅程中，<br>發現<span class="work-img-border-bottom">設計的價值</span></h1>
+              <p class="works-img-Secondtitle">而我在設計與開發的過程中，<br>看見<span class="work-img-border-bottom">自己的價值</span>.</p>
+          </div>
+          <div class="d-flex justify-content-center">
+              <div class=" col-lg-3 works-2B2C-box-left">
+                  <h1 class="fw-light works-2B2C-experience">2B經驗</h1>
+                  <p class="lead mx-auto works-2B2C-content">內部監控系統、庫存系統、採購系統、行銷整合系統
+                  </p>
+              </div>
+              <div class=" col-lg-3 works-2B2C-box-right ">
+                  <h1 class="fw-light works-2B2C-experience">2C經驗</h1>
+                  <p class=" lead  mx-auto works-2B2C-content">
+                      跨國美妝保養電商、個人品牌網站、醫美網站、電子商務</p>
+              </div>
+          </div>
+      </div>
+  </section>
+</div>
 
 
 
