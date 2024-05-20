@@ -14,6 +14,10 @@ nav {
   --bs-gutter-x: 0;
 }
 
+.featured-articles .row {
+  --bs-gutter-x: 1.5rem;
+}
+
 /* * 開始 首頁 Nav */
 
 .resume-cover-nav-li {

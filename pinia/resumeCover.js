@@ -299,7 +299,7 @@ export default {
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
 
-<div class="album py-5  ">
+<div class="album py-5 featured-articles ">
   <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  ">
           <div class="col">
