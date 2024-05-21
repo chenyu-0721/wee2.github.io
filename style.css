@@ -1705,6 +1705,8 @@ nav {
 }
 
 /* *終點 */
+
+/* * after 首頁 作品集 文字 */
 .img-border-bottom {
   position: relative;
 }
@@ -1759,4 +1761,15 @@ nav {
   .work-active {
     display: none;
   }
+}
+
+/* * 作品集2b 2c經驗 after */
+.works-2B2C-experience::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 2px;
 }
