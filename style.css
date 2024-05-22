@@ -9,13 +9,7 @@ body {
 nav {
   padding: 32px !important;
 }
-.navbar {
-  position: absolute;
-  background-color: #ffffff;
-  left: 0;
-  right: 0;
-  z-index: 1; /* 确保导航栏在其他内容上方显示 */
-}
+
 .row {
   --bs-gutter-x: 0;
 }
@@ -143,6 +137,18 @@ nav {
 @media (max-width: 768px) {
   .resume-cover-nav-margin {
     margin-left: 50px;
+  }
+
+  .navbar {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    z-index: 2; /* 确保导航栏在其他内容上方显示 */
+  }
+
+  .featurette {
+    padding-top: 100px;
   }
 }
 
