@@ -68,7 +68,7 @@ export default {
             <div class="introduction-of-works-blockDiv">
                 <img class="introduction-of-works-title-deco"
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-                <span class="introduction-of-works-BigTitle">服務項目</span>
+                <h2 class="introduction-of-works-BigTitle">服務項目</h2>
                 <img class="introduction-of-works-title-deco"
                     src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
             </div>

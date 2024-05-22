@@ -123,7 +123,7 @@ export default {
 <div class="introduction-of-works-blockDiv">
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <span class="introduction-of-works-BigTitle">作品介紹</span>
+  <h2 class="introduction-of-works-BigTitle">作品介紹</h2>
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
@@ -281,7 +281,7 @@ export default {
   <div class="introduction-of-works-blockDiv">
       <img class="introduction-of-works-title-deco"
           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-      <span class="introduction-of-works-BigTitle">服務項目</span>
+      <h2 class="introduction-of-works-BigTitle">服務項目</h2>
       <img class="introduction-of-works-title-deco"
           src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
   </div>
@@ -310,7 +310,7 @@ export default {
           </div>
       </div>
   </div>
-  <h1 class="service-items-title">想要合作或瞭解更多？</h1>
+  <h2 class="service-items-title">想要合作或瞭解更多？</h2>
   <div class="service-items-button-box">
       <a class="btn btn-dark service-items-button" href="" role="button">
           詳細內容與合作流程
@@ -324,7 +324,7 @@ export default {
 <div class="introduction-of-works-blockDiv">
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <span class="introduction-of-works-BigTitle">精選文章</span>
+  <h2 class="introduction-of-works-BigTitle">精選文章</h2>
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
