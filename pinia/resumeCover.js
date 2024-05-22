@@ -4,6 +4,17 @@ export default {
       isCarouselInitialized: false,
     };
   },
+  mounted() {
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  },
   template: ` 
   <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
@@ -73,12 +84,13 @@ export default {
 <div class="row featurette">
   <div class="resume-aboutMe-col">
       <h2 class="resume-about-title">Hi！我是 Noel</h2>
-    
-        <h1 class="resume-about-content">具有 10 年經驗的
-        <span class="resume-about-content img-border-bottom">資深 UI 設計師 
-        </span> <span class="resume-about-content" style="padding:0 6px">兼</span>        
-        <span class="resume-about-content img-border-bottom"> 前端工程師</span></h1>
-        
+
+      <h1 class="resume-about-content">具有 10 年經驗的
+          <span class="resume-about-content img-border-bottom">資深 UI 設計師
+          </span> <span class="resume-about-content" style="padding:0 6px">兼</span>
+          <span class="resume-about-content img-border-bottom"> 前端工程師</span>
+      </h1>
+
       <span class="resume-about-content">技術雙修並行，熱衷於優化使用者的網頁體驗</span>
       <span class="resume-about-remark">WEB DEVELOPMENT / BRANDING / UI / UX / APP DESIGN</span>
       <div class="resume-about-icon-padding ">
@@ -305,10 +317,11 @@ export default {
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
 
+
 <div class="album py-5  introduction">
-  <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  ">
-          <div class="col">
+  <div class="swiper mySwiper container">
+      <div class="swiper-wrapper  row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="swiper-slide col">
               <div class="card">
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true">
@@ -323,7 +336,8 @@ export default {
                   </div>
               </div>
           </div>
-          <div class="col">
+
+          <div class="swiper-slide col">
               <div class="card">
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true">
@@ -337,7 +351,7 @@ export default {
                   </div>
               </div>
           </div>
-          <div class="col">
+          <div class="swiper-slide col">
               <div class="card">
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true">
@@ -351,10 +365,70 @@ export default {
                   </div>
               </div>
           </div>
+          <div class="swiper-slide col">
+              <div class="card">
+                  <img class="featured-articlescard-img-top"
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image4.png?raw=true">
+                  <div class="card-body">
+                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                              UI/UX 設計重點大公開
+                              (上)</a></span>
+                      <div class="featured-articlescard-img-hashtag-box">
+                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+                          <span class="featured-articlescard-img-time ">2024/02/10</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide col">
+              <div class="card">
+                  <img class="featured-articlescard-img-top"
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image5.png?raw=true">
+                  <div class="card-body">
+                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                              UI/UX 設計重點大公開
+                              (上)</a></span>
+                      <div class="featured-articlescard-img-hashtag-box">
+                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+                          <span class="featured-articlescard-img-time ">2024/02/10</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide col">
+              <div class="card">
+                  <img class="featured-articlescard-img-top"
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image6.png?raw=true">
+                  <div class="card-body">
+                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                              UI/UX 設計重點大公開
+                              (上)</a></span>
+                      <div class="featured-articlescard-img-hashtag-box">
+                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+                          <span class="featured-articlescard-img-time ">2024/02/10</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide col">
+              <div class="card">
+                  <img class="featured-articlescard-img-top"
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image7.png?raw=true">
+                  <div class="card-body">
+                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                              UI/UX 設計重點大公開
+                              (上)</a></span>
+                      <div class="featured-articlescard-img-hashtag-box">
+                          <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
+                          <span class="featured-articlescard-img-time ">2024/02/10</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
+      <div class="swiper-pagination"></div>
   </div>
 </div>
-
 
 
 
@@ -392,11 +466,5 @@ export default {
       </footer>
   </div>
 </div>
-
-
-
-
-
-
   `,
 };
