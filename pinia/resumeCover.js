@@ -6,18 +6,30 @@ export default {
   },
   mounted() {
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
       spaceBetween: 30,
       freeMode: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+        // When window width is >= 768px
+        0: {
+          slidesPerView: 1,
+        },
+        // When window width is >= 1024px
+        700: {
+          slidesPerView: 2,
+        },
+        1000: {
+          slidesPerView: 3,
+        },
+      },
     });
   },
   template: ` 
   <div class="border-bottom">
-  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
+  <nav class="container navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
           <a class="navbar-brand " href="#"><img class="navbar_img"
                   src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
@@ -27,7 +39,7 @@ export default {
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav resume-cover-nav-margin">
+              <ul class="navbar-nav resume-cover-nav-margin ">
                   <li class="nav-item ">
                       <a href="#" class="nav-link " aria-current="page">
                           <span class="resume-cover-nav-li">首頁</span>
@@ -320,7 +332,7 @@ export default {
 
 <div class="album py-5  introduction">
   <div class="swiper mySwiper container">
-      <div class="swiper-wrapper  row-cols-1 row-cols-sm-2 row-cols-md-3">
+      <div class="swiper-wrapper row-cols-1 row-cols-sm-2 row-cols-md-3">
           <div class="swiper-slide col">
               <div class="card">
                   <img class="featured-articlescard-img-top"
