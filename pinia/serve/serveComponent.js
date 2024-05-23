@@ -51,7 +51,7 @@ export default {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
+                            <a href="#/callme" class="nav-link " aria-current="page">
                                 <span class="resume-cover-nav-li">聯絡我</span>
                                 <span class="nav-hover-upperLeft"></span>
                                 <span class="nav-hover-upperRight"></span>
@@ -64,13 +64,14 @@ export default {
             </div>
         </nav>
 </div>
-        <div class="bg-light serviceBox">
+        <div class="bg-light serviceBox ">
+            
             <div class="introduction-of-works-blockDiv">
-                <img class="introduction-of-works-title-deco"
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-                <h2 class="introduction-of-works-BigTitle">服務項目</h2>
-                <img class="introduction-of-works-title-deco"
-                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
+            <img class="introduction-of-works-title-deco"
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
+            <span class="introduction-of-works-BigTitle">服務項目</span>
+            <img class="introduction-of-works-title-deco"
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
             </div>
 
             <div class="container">

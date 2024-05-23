@@ -51,7 +51,7 @@ export default {
                   </a>
               </li>
               <li class="nav-item">
-                  <a href="#" class="nav-link " aria-current="page">
+                  <a href="#/callme" class="nav-link " aria-current="page">
                       <span class="resume-cover-nav-li">聯絡我</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
@@ -64,6 +64,7 @@ export default {
   </div>
 </nav>
 </div>
+
 
 
 

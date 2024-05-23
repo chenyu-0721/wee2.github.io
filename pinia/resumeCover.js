@@ -29,68 +29,68 @@ export default {
   },
   template: ` 
   <div class="border-bottom">
-  <nav class="container navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-          <a class="navbar-brand " href="#"><img class="navbar_img"
-                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
-          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav resume-cover-nav-margin ">
-                  <li class="nav-item ">
-                      <a href="#" class="nav-link " aria-current="page">
-                          <span class="resume-cover-nav-li">首頁</span>
-                          <span class="nav-hover-upperLeft-StopPage"></span>
-                          <span class="nav-hover-upperRight-StopPage"></span>
-                          <span class="nav-hover-lowerRight-StopPage"></span>
-                          <span class="nav-hover-lowerLeft-StopPage"></span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#/work" class="nav-link" aria-current="page">
-                          <span class="resume-cover-nav-li">作品集</span>
-                          <span class="nav-hover-upperLeft"></span>
-                          <span class="nav-hover-upperRight"></span>
-                          <span class="nav-hover-lowerRight"></span>
-                          <span class="nav-hover-lowerLeft"></span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#/serve" class="nav-link" aria-current="page">
+  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+      <a class="navbar-brand " href="#"><img class="navbar_img"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav resume-cover-nav-margin">
+              <li class="nav-item ">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">首頁</span>
+                      <span class="nav-hover-upperLeft-StopPage"></span>
+                      <span class="nav-hover-upperRight-StopPage"></span>
+                      <span class="nav-hover-lowerRight-StopPage"></span>
+                      <span class="nav-hover-lowerLeft-StopPage"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/work" class="nav-link" aria-current="page">
+                      <span class="resume-cover-nav-li">作品集</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/serve" class="nav-link" aria-current="page">
 
-                          <span class="resume-cover-nav-li">服務項目</span>
-                          <span class="nav-hover-upperLeft"></span>
-                          <span class="nav-hover-upperRight"></span>
-                          <span class="nav-hover-lowerRight"></span>
-                          <span class="nav-hover-lowerLeft"></span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#blog" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">服務項目</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#blog" class="nav-link " aria-current="page">
 
-                          <span class="resume-cover-nav-li">部落格</span>
-                          <span class="nav-hover-upperLeft"></span>
-                          <span class="nav-hover-upperRight"></span>
-                          <span class="nav-hover-lowerRight"></span>
-                          <span class="nav-hover-lowerLeft"></span>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link " aria-current="page">
-                          <span class="resume-cover-nav-li">聯絡我</span>
-                          <span class="nav-hover-upperLeft"></span>
-                          <span class="nav-hover-upperRight"></span>
-                          <span class="nav-hover-lowerRight"></span>
-                          <span class="nav-hover-lowerLeft"></span>
-                      </a>
-                  </li>
-              </ul>
-          </div>
+                      <span class="resume-cover-nav-li">部落格</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/callme" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">聯絡我</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+          </ul>
       </div>
-  </nav>
+  </div>
+</nav>
 </div>
 
 <div class="row featurette">
@@ -123,7 +123,7 @@ export default {
 <div class="introduction-of-works-blockDiv">
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <h2 class="introduction-of-works-BigTitle">作品介紹</h2>
+  <span class="introduction-of-works-BigTitle">作品介紹</span>
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
@@ -278,13 +278,13 @@ export default {
 
 
 <div class="service-items-img">
-  <div class="introduction-of-works-blockDiv">
-      <img class="introduction-of-works-title-deco"
-          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-      <h2 class="introduction-of-works-BigTitle">服務項目</h2>
-      <img class="introduction-of-works-title-deco"
-          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
-  </div>
+<div class="introduction-of-works-blockDiv">
+<img class="introduction-of-works-title-deco"
+    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
+<span class="introduction-of-works-BigTitle">服務項目</span>
+<img class="introduction-of-works-title-deco"
+    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
+</div>
 
   <div class="container">
       <div class="row row-cols-1 g-3  justify-content-center  ">
@@ -324,7 +324,7 @@ export default {
 <div class="introduction-of-works-blockDiv">
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-left-lg.png?raw=true">
-  <h2 class="introduction-of-works-BigTitle">精選文章</h2>
+  <span class="introduction-of-works-BigTitle">精選文章</span>
   <img class="introduction-of-works-title-deco"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/title-deco-right-lg.png?raw=true">
 </div>
@@ -338,9 +338,9 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image1.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
                               UI/UX 設計重點大公開
-                              (上)</a></span>
+                              (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2024/02/10</span>
@@ -354,8 +354,8 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image2.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">給設計師和工程師的 Figma-Dev Mode
-                              開發模式使用指南 (下)</a></span>
+                      <span class="featured-articlescard-img-content">給設計師和工程師的 Figma-Dev Mode
+                              開發模式使用指南 (下)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2023/11/20</span>
@@ -368,8 +368,8 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image3.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">給設計師和工程師的 Figma-Dev Mode
-                              開發模式使用指南 (上) </a></span>
+                      <span class="featured-articlescard-img-content">給設計師和工程師的 Figma-Dev Mode
+                              開發模式使用指南 (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2023/10/18</span>
@@ -382,9 +382,9 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image4.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
                               UI/UX 設計重點大公開
-                              (上)</a></span>
+                              (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2024/02/10</span>
@@ -397,9 +397,9 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image5.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
                               UI/UX 設計重點大公開
-                              (上)</a></span>
+                              (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2024/02/10</span>
@@ -412,9 +412,9 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image6.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
                               UI/UX 設計重點大公開
-                              (上)</a></span>
+                              (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2024/02/10</span>
@@ -427,9 +427,9 @@ export default {
                   <img class="featured-articlescard-img-top"
                       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/article-image7.png?raw=true">
                   <div class="card-body">
-                      <span class="featured-articlescard-img-content"><a href="">Vision Pro 登場！Vision Pro
+                      <span class="featured-articlescard-img-content">Vision Pro 登場！Vision Pro
                               UI/UX 設計重點大公開
-                              (上)</a></span>
+                              (上)</span>
                       <div class="featured-articlescard-img-hashtag-box">
                           <span class="featured-articlescard-img-hashtag">UI/UX 新知</span>
                           <span class="featured-articlescard-img-time ">2024/02/10</span>

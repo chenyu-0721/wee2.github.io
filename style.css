@@ -10,6 +10,10 @@ nav {
   padding: 32px !important;
 }
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 /* * 開始 首頁 Nav */
 
 .resume-cover-nav-li {
@@ -131,14 +135,20 @@ nav {
     margin-left: 50px;
   }
 
+  .featurette {
+    padding-top: 100px;
+  }
+
   .navbar {
     position: absolute;
     background-color: #ffffff;
     left: 0;
     right: 0;
-    z-index: 2; /* 确保导航栏在其他内容上方显示 */
+    z-index: 2;
   }
+}
 
+@media (max-width: 1000px) {
   .featurette {
     padding-top: 100px;
   }
@@ -922,10 +932,11 @@ nav {
 }
 
 .featured-articlescard-img-content {
-  font-size: 20px;
+  font-size: 20px !important;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
+  color: #3b3b3b !important;
 }
 
 .featured-articlescard-img-hashtag-box {
@@ -1471,6 +1482,10 @@ nav {
     width: 351px;
     height: auto;
   }
+
+  .serviceBox {
+    margin-top: 80px;
+  }
 }
 
 /* * 客戶案例 */
@@ -1760,6 +1775,7 @@ nav {
 @media (max-width: 768px) {
   .work-active2 {
     display: block;
+    margin-top: 80px;
   }
 
   .work-active {
@@ -1776,4 +1792,26 @@ nav {
   background: rgba(0, 0, 0, 0.3);
   margin: auto;
   margin-top: 2px;
+}
+
+/*
+* 聯絡我
+*/
+
+.callmeImg {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000 !important; /* 這裡設置你想要的顏色 */
+}
+.swiper-pagination {
+  position: absolute;
+  bottom: -5px !important; /* 調整這個值來改變垂直位置 */
+  left: 0;
+  right: 0;
+  text-align: center; /* 使點在水平中心 */
+  z-index: 10; /* 確保分頁在最前面 */
 }

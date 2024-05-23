@@ -3,6 +3,7 @@ import workComponent from "./pinia/work/workComponent.js";
 import serveComponent from "./pinia/serve/serveComponent.js";
 import blogComponent from "./pinia/blog/blogComponent.js";
 import vrComponent from "./pinia/blog/vrComponent.js";
+import callComponent from "./pinia/calll/callComponent.js";
 const { createApp } = Vue;
 
 const routes = [
@@ -11,6 +12,7 @@ const routes = [
   { path: "/serve", component: serveComponent },
   { path: "/blog", component: blogComponent },
   { path: "/vr", component: vrComponent },
+  { path: "/callme", component: callComponent },
 ];
 
 const router = VueRouter.createRouter({
@@ -25,6 +27,7 @@ const app = createApp({
     serveComponent,
     blogComponent,
     vrComponent,
+    callComponent,
   },
 });
 
